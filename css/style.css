@@ -34,3 +34,48 @@
     font-weight: bold !important;
     border-radius: 30px;
 }
+.fs-40{
+    font-size: 40px;
+}
+.fs-26{
+    font-size: 26px;
+}
+
+.icon{
+    width: 50px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.text-muted{
+    color: #69696f !important;
+}
+
+.publishers{
+    background-color: #21272D;
+}
+
+.columns{
+    padding-top: 400px;
+    background-image: url("../img/columns.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+}
+.ovrelay{
+    bottom: 0;
+    left: 0;
+}
+.container.position-relative{
+    z-index: 100;
+}
+
+.card-header{
+    background-color: #2D353E;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.col-icon{
+    height: 100px;
+}

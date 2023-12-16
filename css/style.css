@@ -79,3 +79,9 @@
 .col-icon{
     height: 100px;
 }
+.company-logo{
+    height: 100px;
+}
+.container{
+    max-width: 1100px !important;
+}

@@ -143,3 +143,61 @@ nav.sticky {
     background: black !important;
     z-index: 10000;
 }
+
+@media screen and (max-width: 767px) {
+    .logo {
+        width: 50px;
+    }
+
+    li.nav-item.ms-4 {
+        margin-left: 8px !important;
+    }
+
+    .hero {
+        padding: 120px 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transform: scaleX(-1);
+    }
+
+    .fs-40 {
+        font-size: 30px;
+    }
+
+    .fs-26 {
+        font-size: 20px;
+    }
+
+    .fs-24 {
+        font-size: 20px;
+    }
+
+    img.img-fluid.w-100.ovrelay.position-absolute {
+        display: none;
+    }
+
+    section.columns.pb-5.position-relative .text-white {
+        color: black !important;
+    }
+
+    .company-logo {
+        height: 60px;
+        object-fit: contain;
+        margin: auto;
+        /* display: block; */
+    }
+
+    #what-is-digital .py-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .footer * {
+        text-align: center;
+        gap: 20px;
+    }
+}
